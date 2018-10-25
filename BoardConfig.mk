@@ -17,6 +17,10 @@
 # inherit from Oppo common
 -include device/oppo/common/BoardConfigCommon.mk
 
+# Inherit from CM directly
+-include vendor/cm/BoardConfig.mk
+
+
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 
